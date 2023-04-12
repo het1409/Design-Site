@@ -4,18 +4,27 @@
     <title>CrowBosses</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-        <style type="text/css">
+    <style type="text/css">
       /* CSS for gallery images */
       .gallery div img {
         max-width: 100%;
         height: auto;
       }
-      
       /* Media query for smaller screens */
       @media only screen and (max-width: 600px) {
         .gallery div {
           width: 100%;
         }
+      }
+      /* CSS for price tags */
+      .caption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .price-tag {
+        font-weight: bold;
+        margin-top: 5px;
       }
     </style>
   </head>
@@ -28,21 +37,41 @@
       <div class="gallery">
         <figure>
           <img src="f1.png" alt="Black dress">
-          <figcaption><a href="page1.html">"Hysterical"</a></figcaption>
+          <figcaption>
+            <div class="caption">
+              <a href="page1.html">"Hysterical Tee"</a>
+              <span class="price-tag">$400</span>
+            </div>
+          </figcaption>
         </figure>
         <figure>
           <img src="hb.png" alt="Red dress">
-          <figcaption><a href="page2.html">"Retail Hoodie"</a></figcaption>
+          <figcaption>
+            <div class="caption">
+              <a href="page2.html">"Retail Hoodie"</a>
+              <span class="price-tag">$750</span>
+            </div>
+          </figcaption>
         </figure>
         <figure>
           <img src="h1.png" alt="White shirt">
-          <figcaption>"Floreo Hoodie"</figcaption>
+          <figcaption>
+            <div class="caption">
+              "Floreo Hoodie"
+              <span class="price-tag">$620</span>
+            </div>
+          </figcaption>
         </figure>
         <figure>
           <img src="F.png" alt="White shirt">
-          <figcaption><a href="page3.html">"Retail Tee"</a></figcaption>
+          <figcaption>
+            <div class="caption">
+              <a href="page3.html">"Retail Tee"</a>
+              <span class="price-tag">$450</span>
+            </div>
+          </figcaption>
         </figure>
-<!-- ADD More Images Here-->
+        <!-- ADD More Images Here-->
       </div>
     </main>
     <footer>

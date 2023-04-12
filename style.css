@@ -8,7 +8,7 @@ body {
     background-color: #000000;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 0.9px;
   }
   .fade-in {
     opacity: 0;
@@ -70,6 +70,7 @@ body {
     color: #fff;
     text-align: center;
     padding: 20px;
+    margin-top: 95px;
   }
   h1 {
     font-family: Muller;

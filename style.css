@@ -64,6 +64,16 @@ body {
     color: #000000;
     text-decoration: none;
   }
+  .gallery figcaption {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+  }
 
   footer {
     background-color: #000000;
